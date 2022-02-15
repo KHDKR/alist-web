@@ -26,5 +26,5 @@ jobs:
         with:
           personal_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: dist
-          external_repository: khdkr/alist
+          external_repository: khdkr/alist-web
           publish_branch: dist

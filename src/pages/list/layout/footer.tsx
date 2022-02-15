@@ -13,8 +13,6 @@ const Footer = () => {
           <Link isExternal href="https://github.com/Xhofe/alist">
             {t("Powered by {{project}}", { project: "Alist" })}
           </Link>
-          <span>|</span>
-          <ReactLink to="/@manage">{t("Manage")}</ReactLink>
         </HStack>
         {getSetting("site beian") && (
           <Link className="line1" isExternal href="https://beian.miit.gov.cn/">

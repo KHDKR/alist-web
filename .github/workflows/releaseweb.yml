@@ -26,5 +26,5 @@ jobs:
         with:
           personal_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: dist
-          external_repository: xopenwrt/alist-web
+          external_repository: khdkr/alist
           publish_branch: dist
